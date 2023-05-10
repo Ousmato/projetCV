@@ -27,10 +27,10 @@ padding: 15px;
 }
 /*la partie droite*/
 .droite{
-padding: 40px 30px;
+padding: 15px;
 background-color: var(--blanc-sale);
 width: 68%;
-height: 900;
+height: 100%;
 float: left;
 }
 /* ajouté l'image du cv */
@@ -123,4 +123,26 @@ color: var(--blanc-c);
 .titre-degre{
     text-transform: uppercase;
     color: #fff;
+}
+/* partie Droite */
+h3{
+    color: black;
+    font-weight: bold;
+}
+.DNiv1-slah{
+    color: black
+}
+/* trait sur experience */
+.DtraitNiv1{
+    border: 2px solid;
+    border-color: var(--blanc-c);
+    width: 90%;
+    border-radius: 0px 3px 3px 0px;
+}
+.DNiv-slash {
+    display: flex;
+    justify-content: flex-start;
+    color: var(--bleu-f);
+    font-weight: bold;
+
 }
