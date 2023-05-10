@@ -1,0 +1,126 @@
+
+*{
+    box-sizing: border-box;
+}
+/* couleurs  */
+:root{
+    --bleu-f:#1A2B3B;
+    --blanc-sale:#A5AAAF;
+    --bleu-sale:rgba(131, 161, 199, 1);
+    --blanc-c:#ffff;
+}
+/* la mage entière */
+.milieu{
+    margin: 100px auto;
+    height: 900px;
+    width: 800px;
+    background-color: var(--blanc-sale);
+
+}
+/*la partie gauche*/
+.gauche{
+background-color: var(--bleu-f);
+width: 250px;
+height: 100%;
+float: left;
+padding: 15px;
+}
+/*la partie droite*/
+.droite{
+padding: 40px 30px;
+background-color: var(--blanc-sale);
+width: 68%;
+height: 900;
+float: left;
+}
+/* ajouté l'image du cv */
+section img{
+    margin-left: 1px ;
+    width: 185px;
+    height: 194px;
+    border: 5px solid var(--bleu-f);
+    border-radius: 160px;
+
+
+}
+/* la mises en forme du cercle de l'image */
+.cercle{
+    overflow: hidden;
+    width: 190px;
+    height: 199px;
+    border: 3px solid var(--blanc-sale);
+    border-radius: 100px;
+    margin-left: 8px;  
+}
+/* l'ecriture du Niveau1 profil */
+.Niveau1{
+    color: var(--bleu-sale);
+    
+}
+/* pour rapproché le trait du profil */
+.Niveau1 p{
+    margin: 0px 0px 0px 0px;
+}
+/* le trait qui en dessous de l'ecriture PROFIL */
+.trait{
+    border: 1px solid;
+    border-color: var(--bleu-sale);
+    width: 90%;
+   }
+   /* la marge haut de l'ecriture mobile et le numero qui est ladessou */
+
+.titre{
+    color: var(--bleu-sale);
+    margin-bottom: 0px;
+}
+.sous-titre{
+    color: var(--bleu-sale);
+    margin-top: 5px;
+}
+
+/* la marge haut de l'écriture email est l'adresse mail dessou */
+
+/* écriture  Niveau2 COMPETENCE */
+.Niveau2 p{
+    margin: 0px 0px 0px 0px;
+    color: var(--bleu-sale);
+}
+/* trait sous competence */
+.trait{
+    border: 1px solid var(--bleu-sale);
+    border-color: var(--bleu-sale);
+    width: 90%;
+   }
+   /* ecriture Pack Microsoft Office 360 et les autres */
+   .PCM-360{
+margin-top: 10px;
+color: var(--blanc-c);
+   }
+   /* leurs trait d'efficacité */
+.efficaciter1{
+    margin-top: 0px;
+    width: 80%;
+    border: 0px solid var(--blanc-c);
+    border-radius: 3px;
+    background: var(--blanc-c);
+}
+.progression1{
+    width: 60%;
+    background-color: var(--bleu-sale);
+    border-radius: 3px;
+    border: 1px solid var(--bleu-sale);
+}
+/* Niveau3 language */
+.Niveau3 p{
+    margin: 15px 0px 0px 0px;
+    color: var(--bleu-sale);
+}
+.trait{
+    border: 1px solid var(--bleu-sale);
+    border-color: var(--bleu-sale);
+    width: 90%;
+}
+.titre-degre{
+    text-transform: uppercase;
+    color: #fff;
+}
