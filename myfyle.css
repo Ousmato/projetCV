@@ -12,26 +12,26 @@
 /* la mage entière */
 .milieu{
     margin: 100px auto;
-    height: 900px;
-    width: 800px;
+    max-height: 100%;
+    max-width: 100%;
     background-color: var(--blanc-sale);
+    display: flex;
 
 }
 /*la partie gauche*/
 .gauche{
 background-color: var(--bleu-f);
-width: 250px;
+width: 32%;
 height: 100%;
-float: left;
 padding: 15px;
 }
 /*la partie droite*/
 .droite{
 padding: 15px;
-background-color: var(--blanc-sale);
+background-color: #f5f0f0;
 width: 68%;
 height: 100%;
-float: left;
+
 }
 /* ajouté l'image du cv */
 section img{
@@ -40,6 +40,7 @@ section img{
     height: 194px;
     border: 5px solid var(--bleu-f);
     border-radius: 160px;
+    /* background-clip: padding-box var(--blanc-sale); */
 
 
 }
@@ -105,7 +106,7 @@ color: var(--blanc-c);
     background: var(--blanc-c);
 }
 .progression1{
-    width: 60%;
+    width: 70%;
     background-color: var(--bleu-sale);
     border-radius: 3px;
     border: 1px solid var(--bleu-sale);
@@ -129,158 +130,76 @@ h3{
     color: black;
     font-weight: bold;
 }
-.DNiv1-slah{
-    color: black
+.slash{
+    color: rgb(247, 242, 242);
+    margin-right: 5px;
+    font-size: large;
+    text-transform: uppercase;
+
+}
+.slash-nom{
+    display: flex;
 }
 /* trait sur experience */
 .DtraitNiv1{
-    border: 2px solid;
-    border-color: var(--blanc-c);
+    border: 1px solid;
+    border-color: #443f3f;
     width: 90%;
     border-radius: 0px 3px 3px 0px;
+    margin-bottom: 10px;
 }
-/* slash */
-.DNiv-slash {
+/* slash */ 
+#dsd{
+
+}
+.Nom{
     display: flex;
     justify-content: flex-start;
     color: var(--bleu-f);
     font-weight: bold;
-
 }
-/* année d'experience et le poste */
-.lingne1{
-    margin-top: 20px;
+.ligne{
     display: flex;
-    justify-content: flex-start;
-    height: 20px;
-
-}
-/* le poin et le trait en premiere position */
-.point-trait1{
-    margin-right: 10px;
-    height: 80px;
-}
-.date1{
-    margin-right: 30%;
-}
-/* le point NOir */
-.point1{
-    width: 15px;
-    height: 10px;
-    background-color: black;
-    border-radius: 100%;
-}
-/* trait noir sur */
-.trait91{
-    width: 2px;
-    height: 100%;
-    background-color: black;
-    margin: auto;
-}
-/* année d'experience et le poste */
-.lingne1{
-    margin-top: 20px;
-    display: flex;
-    justify-content: flex-start;
-    height: 20px;
-    margin-bottom: 70px;
-
-}
-/* le poin et le trait en deuxieme position */
-.lingne2{
     
-    display: flex;
-    justify-content: flex-start;
-    height: 30px;
 }
-
-.point-trait2{
-    margin-right: 10px;
-    height: 80px;
+.ligne .date{
+    width: 50%;
 }
-.date2{
-    margin-right: 30%;
+.ligne .titre1{
+    width: 50%;
 }
-/* le point NOir */
-.point2{
+.titre1 h4{
+    margin: 0px;
+    color: var(--bleu-sale)
+}
+.titre1{
+    border-left: 2px solid;
+    padding-left: 9px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.titre1::before{
+    content: "";
+    display: block;
+    position: absolute;
     width: 15px;
-    height: 10px;
-    background-color: black;
-    border-radius: 100%;
-}
-/* trait noir sous le poin noir*/
-.trait92{
-    width: 2px;
-    height: 100%;
-    background-color: black;
-    margin: auto;
-}
-.lingne3{
-    margin-top: 60px;
-    display: flex;
-    justify-content: flex-start;
-    height: 20px;
-
-}
-.date3{
-    margin-right: 33.3%;
-
-}
-.point3{
-    width: 15px;
-    height: 10px;
-    background-color: black;
-    border-radius: 100%;
-    padding-right: 10px;
-    margin-top: px;
-}
-.Gtitre3{
-    padding-left: 10px;
-}
-.DtraitNiv2{
-    border: 2px solid;
-    border-color: var(--blanc-c);
-    width: 90%;
-    border-radius: 0px 3px 3px 0px;
-}
-/* slash */
-.DNiv2-slash {
-    margin-top: 40px;
-    display: flex;
-    justify-content: flex-start;
-    color: var(--bleu-f);
-    font-weight: bold;
-
-}
-.date32{
-    margin-right: 30%;
-}
-.DNiv3-slash{
-    margin-top: 90px;
-    display: flex;
-    justify-content: flex-start;
-    color: var(--bleu-f);
-    font-weight: bold;
-}
-.DtraitNiv3{
-    border: 2px solid;
-    border-color: var(--blanc-c);
-    width: 90%;
-    border-radius: 0px 3px 3px 0px;
+    height: 15px;
+    top: 0;
+    left: -8px;
+    border-radius: 50%;
+    background-color: #000;
 }
 .icon{
     display: flex;
-    height: 30px;
-    width: 80%;
     margin-top: 30px;
-    margin-right: 30px;
     justify-content: space-between;
     text-align: center;
+    margin-bottom: 68px;
 }
 .icon img {
     height: 30px;
 }
 
 .icon p {
-    margin-top: 0;
+    margin-top: 0px;
 }
